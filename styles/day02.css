@@ -1,0 +1,16 @@
+
+td {
+
+    border-width: 1px;
+    border-style: solid;
+    font-size: 300%;
+}
+
+td:hover {
+    background-color: cyan;
+}
+
+#hoverResult {
+    color: green;
+    font-size: 200%;
+}

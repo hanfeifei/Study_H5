@@ -1,0 +1,44 @@
+<!--验证新的查找方式 document.querySelector-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day02</title>
+    <link href="../styles/day02.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section>
+    <table>
+        <tr>
+            <td id="a1">A1</td>
+            <td>A2</td>
+            <td>A3</td>
+            <td>A4</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+            <td>B4</td>
+        </tr>
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    <div>Focus the button,hover over the table cells,how to use querySelector('td:hover')</div>
+    <button type="button" id="findHover" autofocus>find "td:hover"</button>
+    <div id="hoverResult"></div>
+    <script type="text/javascript">
+        <!--当鼠标滑过指定元素时,将结果现实在指定位置-->
+        document.getElementById("a1").onmouseover = function () {
+            var find = document.querySelector("td:hover");
+            if (find)
+                document.getElementById("hoverResult").innerHTML = find.innerHTML;
+        }
+    </script>
+</section>
+</body>
+</html>
