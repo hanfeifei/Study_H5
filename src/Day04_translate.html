@@ -10,11 +10,13 @@
             //保存当前的绘图状态
             context.save();
             //像右下方移动绘制上下文
-            context.translate(70, 140);
+            context.translate(0, 200);
             //以原点为起点,绘制线
             context.beginPath();
             context.moveTo(0, 0);
-            context.lineTo(70, -70);
+            context.lineTo(200, -200);
+            context.moveTo(200,0);
+            context.lineTo(0,-200);
             context.stroke();
             context.restore();
         }
