@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tree</title>
+    <script type="text/javascript">
+        function drawTree() {
+            var canvas = document.getElementById("tree");
+            var context = canvas.getContext("2d");
+            context.save();
+            context.translate(130, 250);
+            createCanopyPath(context);
+            //绘制
+            context.stroke();
+            context.restore();
+        }
+
+        function createCanopyPath(context) {
+            //绘制树冠
+            context.beginPath();
+            //左边
+            context.moveTo(-25, -50);
+            context.lineTo(-10, -80);
+            context.lineTo(-20, -80);
+            context.lineTo(-5, -110);
+            context.lineTo(-15, -110);
+            //树顶
+            context.lineTo(-0, -140);
+            //右边
+            context.lineTo(15, -110);
+            context.lineTo(5, -110);
+            context.lineTo(20, -80);
+            context.lineTo(10, -80);
+            context.lineTo(25, -50);
+            //闭合起点
+            context.closePath();
+        }
+    </script>
+</head>
+<body>
+<canvas id="tree" width="300px" height="300px"></canvas>
+</body>
+</html>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9bf8d5-48bf-4645-80ab-2001ad8f3fcc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day04_tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day04_translate.html" afterPath="$PROJECT_DIR$/src/Day04_translate.html" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,26 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day03.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Day03.html">
+      <file leaf-file-name="Day04_tree.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Day04_tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Day04_translate.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Day04_translate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="512">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +59,7 @@
         <option value="$PROJECT_DIR$/src/Day02.html" />
         <option value="$PROJECT_DIR$/src/Day04_translate.html" />
         <option value="$PROJECT_DIR$/src/Day03.html" />
+        <option value="$PROJECT_DIR$/src/Day04_tree.html" />
       </list>
     </option>
   </component>
@@ -235,12 +222,12 @@
       <workItem from="1893542231114" duration="93000" />
       <workItem from="1467188848053" duration="52000" />
       <workItem from="1467598098874" duration="13572000" />
-      <workItem from="1468202238037" duration="5073000" />
+      <workItem from="1468202238037" duration="7429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18790000" />
+    <option name="totallyTimeSpent" value="21146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
@@ -362,11 +349,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day04_translate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="380">
+          <caret line="20" column="30" selection-start-line="7" selection-start-column="11" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day04_tree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
